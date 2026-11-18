@@ -3,8 +3,8 @@
 一条命令完成本地 LLM 推理的安装、运行与看护——覆盖 x86_64、aarch64、riscv64 三种架构。
 
 ```bash
-amax pull qwen3:8b
-amax run qwen3:8b
+amax job submit job.yaml
+amax receipt verify receipt.json
 ```
 
 > 英文版：[README.md](README.md)

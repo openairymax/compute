@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amax"
+version = "0.1.0"
+description = "AMAX 推理作业命令行（AiryMax 软件栈的作业与凭证接口）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "OpenAirymax" }]
+
+[project.scripts]
+amax = "amax.cli:main"
+
+[tool.setuptools]
+packages = ["amax"]

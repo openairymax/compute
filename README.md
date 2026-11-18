@@ -3,8 +3,8 @@
 One command to install, run, and supervise local LLM inference — on x86_64, aarch64, and riscv64.
 
 ```bash
-amax pull qwen3:8b
-amax run qwen3:8b
+amax job submit job.yaml
+amax receipt verify receipt.json
 ```
 
 > 中文版：[README_zh.md](README_zh.md)
