@@ -47,7 +47,7 @@ amax receipt verify receipt.json
 ## 命名
 
 - 命令与品牌名 `amax`，取自 Airy**max**——「极境」的「极」即 maximum。
-- 仓库名 `compute`，与 agentrt 仓并列。
+- 仓库名 `amax-compute`，与 agentrt 仓并列；主仓在 atomgit，GitHub 与 gitee 同名镜像。
 - 公开设计文档（ADR、后端插件接口规范、L0–L3 验收判据、评测方法论、芯片厂商接入指南）见 [openairymax/docs-compute](https://atomgit.com/openairymax/docs-compute)。
 
 ## 状态

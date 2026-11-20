@@ -8,7 +8,7 @@ FROM python:3.12-slim
 
 LABEL org.opencontainers.image.title="amax" \
       org.opencontainers.image.description="AMAX (AirymaxCompute) — the job & receipt layer of the Airymax stack" \
-      org.opencontainers.image.source="https://atomgit.com/openairymax/compute" \
+      org.opencontainers.image.source="https://atomgit.com/openairymax/amax-compute" \
       org.opencontainers.image.licenses="Apache-2.0" \
       org.opencontainers.image.vendor="OpenAirymax"
 
